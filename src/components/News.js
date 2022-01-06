@@ -55,7 +55,7 @@ const News = (props) => {
 
     return (
         <div className="container my-3">
-            <h1 className="text-center" style={{ margin: '40px 0px', marginTop: '60px'}}>NewsKitty {capitalizeFirstLetter(props.category)} - Top Headlines</h1>
+            <h1 className="text-center" style={{ margin: '40px 0px', marginTop: '61px'}}>NewsKitty {capitalizeFirstLetter(props.category)} - Top Headlines</h1>
             {loading && <Spinner />}
 
             <div className="row">
